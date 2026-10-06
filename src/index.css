@@ -48,6 +48,7 @@ body { margin: 0; }
 .carte__details dt { color: #555; }
 .carte__details dd { margin: 0; }
 .carte__numero { font-family: ui-monospace, Consolas, monospace; }
+.carte__date { font-weight: 600; color: var(--marine); }
 
 .badge { padding: 0.15rem 0.5rem; border-radius: 1rem; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
 .badge--preparation { background: #eef2f9; color: #1f3864; }
