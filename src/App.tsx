@@ -19,7 +19,7 @@ export default function App() {
         <p className="compteur" role="status">
           {resultats.length} colis affiché{resultats.length > 1 ? 's' : ''}
         </p>
-        <ListeColis colis={resultats} />
+        <ListeColis colis={resultats} recherche={saisie} />
       </main>
     </div>
   )
