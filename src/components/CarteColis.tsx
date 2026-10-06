@@ -15,7 +15,7 @@ export function CarteColis({ colis }: { colis: Colis }) {
         <dt>Transporteur</dt>
         <dd>{colis.transporteur}</dd>
         <dt>Livraison estimée</dt>
-        <dd>{colis.livraisonEstimee ? afficherJour(colis.livraisonEstimee) : 'Date à venir'}</dd>
+        <dd>{colis.livraisonEstimee ? afficherJour(colis.livraisonEstimee) : 'Date de livraison inconnue'}</dd>
       </dl>
     </article>
   )
